@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves)
     roll_call = "#{list + 1}. *#{dwarf}"
     listed_dwarves.push(roll_call)
   end
-  return listed_dwarves
+  puts listed_dwarves
 end
 
 
