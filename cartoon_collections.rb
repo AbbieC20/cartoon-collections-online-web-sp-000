@@ -11,7 +11,7 @@ end
 def summon_captain_planet(planeteer_calls)
   planeteer = []
   planeteer_calls.map do |calls|
-    declare = "#{calls.upcase}!"
+    declare = "#{calls.capitalize}!"
     planeteer.push(declare)
   end
   return planeteer
