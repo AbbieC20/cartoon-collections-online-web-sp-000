@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves_list)
-  
+
 end
 
 
