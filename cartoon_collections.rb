@@ -20,9 +20,9 @@ end
 
 def long_planeteer_calls(calls)
   if calls.any? {|word| word.length < 4}
-    true
+    return true
   else
-    false
+    return  false
 end
 #The method should tell us if any of the calls are longer than four characters.
 #should return as true - any?
