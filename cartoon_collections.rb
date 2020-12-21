@@ -24,7 +24,7 @@ end
 
 
 def find_the_cheese(snack_list)
-  snack_list.include? ("cheddar", "gouda", "camembert")
+  snack_list.include? ["cheddar", "gouda", "camembert"]
 end
 
 #return first cheese
