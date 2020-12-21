@@ -9,7 +9,9 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
-  # Your code here
+  planeteer_calls.map do |calls|
+    puts
+  end
 end
 
 
