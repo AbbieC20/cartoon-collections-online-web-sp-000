@@ -14,7 +14,7 @@ def summon_captain_planet(planeteer_calls)
     declare = "#{calls.upcase}!"
     planeteer.push(declare)
   end
-  puts planeteer
+  return planeteer
 end
 
 
