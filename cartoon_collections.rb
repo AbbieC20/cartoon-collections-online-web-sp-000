@@ -27,6 +27,3 @@ def find_the_cheese(snack_list)
   cheese_list = ["cheddar", "gouda", "camembert"]
   snack_list.detect {|snack| cheese_list.include?(snack)}
 end
-
-#return first cheese
-#if nothing, return nil
