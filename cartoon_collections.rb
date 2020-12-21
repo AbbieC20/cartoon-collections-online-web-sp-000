@@ -24,8 +24,7 @@ end
 
 
 def find_the_cheese(snack_list)
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  snack_list.include? ("cheddar", "gouda", "camembert")
 end
 
 #return first cheese
