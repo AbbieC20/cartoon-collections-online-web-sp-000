@@ -1,5 +1,6 @@
-def roll_call_dwarves(dwarves_list)
-
+def roll_call_dwarves(dwarves)
+  listed_dwarves = []
+  dwarves
 end
 
 
