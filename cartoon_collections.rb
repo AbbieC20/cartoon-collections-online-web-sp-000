@@ -9,9 +9,12 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
+  planeteer = []
   planeteer_calls.map do |calls|
-    puts
+    declare = "#{calls.upcase}!"
+    planeteer.push(declare)
   end
+  puts planeteer
 end
 
 
